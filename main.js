@@ -2,28 +2,28 @@ let products = [
     {
         id: 1,
         name: "Hoodies",
-        price: 14.00,
+        price: 16.00,
         image: "./img/featured1.png",
         category: "hoodies",
-        stock: 10,
+        stock: 8,
     },
 
     {
         id: 2,
         name: "Shirts",
-        price: 24.00,
+        price: 18.00,
         image: "./img/featured2.png",
         category: "shirts",
-        stock: 15,
+        stock: 36,
     },
 
     {
         id: 3,
         name: "Sweatshirts",
-        price: 24.00,
+        price: 10.00,
         image: "./img/featured3.png",
         category: "sweatshirts",
-        stock: 20,
+        stock: 12,
     },
 ];
 const cartContainer = document.querySelector(".cart__container");
